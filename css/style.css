@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 100vh;
+    width: 100wv;
+    background-image: linear-gradient( 
+         to right bottom,
+         rgba(126, 57, 0, 0.212),
+         rgba(110, 20, 98, 0.308)),
+    url(../img/hero.jpg);
+    background-size:cover;
+    background-position: top;
+    position: relative;
+    
+}
+
+.header__title_name {
+    width: 5rem;
+    z-index: 1;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    color: white;
+    font-style: italic;
+    animation: blink-1;
+    animation-duration: 1s;
+    
+}
+
+.header__title_name:hover {
+    width: 5rem;
+    z-index: 1;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    color: white;
+    font-style: italic;
+    
+    animation: text-focus-in;
+    animation-duration: 1.25s;
+    cursor: pointer;
+
+}
+
+#header__navbar {
+    color: wheat;
+    width: 5rem;
+    display: flex;
+    width: 50vw;
+    float: right;
+    justify-content:space-around;
+    padding: 2rem;
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+#header__navbar  a {
+    cursor: pointer;
+    color: white;
+    z-index: 1;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 720px) {
+    #header__navbar {
+        color: wheat;
+        width: 5rem;
+        display: flex;
+        width: 100vw;
+        float: right;
+        justify-content:space-around;
+        padding: 2rem;
+        font-size: 3.6rem;
+        text-transform: uppercase;
+        z-index: 1;
+    }
+    .header__title_name {
+        display: none;
+    }
+    
+    }
+  
+
+    .main-text {
+        width: 50%;
+        z-index: 1;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 6.4rem;
+        text-align: center;
+        letter-spacing: 1rem;
+        
+    }
+
+    .sub-text {
+        width: 50%;
+        z-index: 1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 6.4rem;
+        text-align: center;
+        font-style: italic;
+        font-weight:100;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .last-text{
+        font-family: 'Silkscreen', cursive;
+        width: 50%;
+        z-index: 1;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 6.4rem;
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        letter-spacing: 3rem;
+        color: #FFFFFF;
+
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #e27449, 0 0 30px #640b60, 0 0 40px #ca9c05, 0 0 55px #c58908, 0 0 75px #b967a5;
+        
+    }
+
+
+
+
+  @keyframes blink-1 {
+    0%,
+    50%,
+    100% {
+      opacity: 1;
+    }
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  
+
+@keyframes shake-horizontal {
+    0%,
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translateX(-10px);
+              transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: translateX(10px);
+              transform: translateX(10px);
+    }
+    80% {
+      -webkit-transform: translateX(8px);
+              transform: translateX(8px);
+    }
+    90% {
+      -webkit-transform: translateX(-8px);
+              transform: translateX(-8px);
+    }
+  }
+
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
