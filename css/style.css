@@ -194,8 +194,7 @@ background: linear-gradient(to right, #be8f63, #a57067); /* W3C, IE 10+/ Edge, F
     justify-content: flex-start;
     align-items: center;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 70%, rgba(218,56,16,1) 100%);
+    background-color: black;
    
 }
 
