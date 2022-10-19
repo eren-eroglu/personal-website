@@ -246,10 +246,21 @@ width: 100%;
 }
 
 
-.aiki , .bx {
+ .bxl-twitter {
   text-decoration: none;
   color: #009FFF;
+  transition: .5s
 }
+
+
+.bxl-github {
+  text-decoration: none;
+  color: #313335;
+  transition: .5s
+}
+
+
+
 
 @media screen and (max-width: 720px) {
     #header__navbar {
