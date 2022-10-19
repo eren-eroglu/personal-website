@@ -245,6 +245,12 @@ width: 100%;
   }
 }
 
+
+.aiki , .bx {
+  text-decoration: none;
+  color: #009FFF;
+}
+
 @media screen and (max-width: 720px) {
     #header__navbar {
         color: wheat;
