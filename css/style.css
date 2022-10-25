@@ -81,3 +81,109 @@ html {
   background: linear-gradient(rgba(54, 1, 32, 0.7),rgba(22, 1, 61, 0.7)),url(/img/hero.jpg) center no-repeat;
   background-size: cover;
 }
+
+
+/* Section 1 */
+.section-1 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* End of Section 1 */
+
+/* Logo */
+
+.logo {
+  position: absolute;
+  top: 2rem;
+  left: 5rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+/* End of Logo */
+
+/* Animated Circles */
+.circles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+}
+
+.circle {
+  width: 22rem;
+  height: 22rem;
+  border-radius: 50%;
+  background-color: aqua;
+  align-self: center;
+  justify-self: center;
+  opacity: 0.5;
+}
+.circle-1 {
+  background: url(/img/earth.jpeg) center no-repeat;
+  background-size: cover;
+  background-clip:content-box;
+  border: .5rem dotted  #3fc3fc;
+}
+.circle-2 {
+  background: url(/img/earth.jpeg) center no-repeat;
+  background-size: cover;
+  background-clip:content-box;
+  border: .5rem dashed  #3fc3fc;
+}
+.circle-3 {
+  background: url(/img/earth.jpeg) center no-repeat;
+  background-size: cover;
+  background-clip:content-box;
+  border: 1rem double  #3fc3fc;
+}
+.circle-4 {
+  background: url(/img/earth.jpeg) center no-repeat;
+  background-size: cover;
+  background-clip:content-box;
+  border: .7rem double  #3fc3fc;
+}
+
+.main-circle {
+  width: 50rem;
+  height: 50rem;
+  background: rgb(156,65,1);
+  background: radial-gradient(circle, rgba(156,65,1,1) 0%, rgba(103,32,131,1) 100%);
+  z-index: 2;
+  border-radius: 50%;
+  position: absolute;
+  overflow: hidden;
+}
+
+/* End of Animated Circles */
+/* Featured text */
+  .featured-text {
+    font-size: 2rem;
+    color: aliceblue;
+    text-transform: uppercase;
+    z-index: 2;
+    position:sticky;
+    top: 0;
+  }
+
+  .featured-text-1 {
+    margin: 0 auto 0 10rem;
+  }
+
+
+  .featured-text-2 {
+    margin: 0 10rem 0 auto;
+  }
+
+/* End of Featured Text */
+
+/* End of Section 1 */
