@@ -1,27 +1,24 @@
-const main = document.querySelector('.main-text').textContent;
-console.log(main);
+const mouseCircle = document.querySelector('.mouse-circle');
+const mouseDot = document.querySelector(".mouse-dot");
 
-const contact = document.querySelector('.button-parent');
+// Mouse Circle
 
-contact.addEventListener("click", myFunction);
+const mouseCircleFn = (x,y) => {
+    mouseCircle.style.cssText = `top:${y}px; left:${x}px; opacity:1`;
+    mouseDot.style.cssText = `top:${y}px; left:${x}px; opacity:1`;
+};
 
-function myFunction(){
-    document.querySelector('.main-text').textContent = 'contact'
-    document.querySelector('.sub-text').textContent = 'check out my social media'
-    
-    const aiki = document.createElement("a");
-    const auc = document.createElement("a");
-    document.querySelector('.last-text').textContent = 
-    aiki.setAttribute("class", "aiki bx bxl-twitter");
-    aiki.setAttribute("href", "https://mobile.twitter.com/35ereneroglu");
-    
-    auc.setAttribute("class","auc bx bxl-github");
-    auc.setAttribute("href", "https://github.com/eren-eroglu");
-    document.querySelector('.last-text').appendChild(aiki);
-    document.querySelector('.last-text').appendChild(auc);  
-    
-  
-    
-    
-   
-}
+document.body.addEventListener('mousemove',(e) => {
+    let x = e.clientX;
+    let y = e.clientY;
+    document.title = "Eren Eroglu - Developer"
+    mouseCircleFn(x,y)
+})
+
+document.body.addEventListener('mouseleave',() => {
+    document.title = 'Come here!'
+    mouseCircle.style.opacity = '0';
+    mouseDot.style.opacity = '0';
+})
+// End of Mouse Circle
+
