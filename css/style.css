@@ -130,27 +130,28 @@ html {
 }
 .circle-1 {
   background: url(/img/earth.jpeg) center no-repeat;
-  background-size: cover;
-  background-clip:content-box;
-  border: .5rem dotted  #3fc3fc;
-}
-.circle-2 {
-  background: url(/img/earth.jpeg) center no-repeat;
-  background-size: cover;
-  background-clip:content-box;
-  border: .5rem dashed  #3fc3fc;
-}
-.circle-3 {
-  background: url(/img/earth.jpeg) center no-repeat;
-  background-size: cover;
+  background-size: 150%;
   background-clip:content-box;
   border: 1rem double  #3fc3fc;
 }
-.circle-4 {
-  background: url(/img/earth.jpeg) center no-repeat;
+.circle-2 {
+  background: url(/img/hero2.jpg) center no-repeat;
+  background-size: 240%;
+  background-clip:content-box;
+  border: 1rem double  #fc753f;
+
+}
+.circle-3 {
+  background: url(/img/saturn.jpg) center no-repeat;
   background-size: cover;
   background-clip:content-box;
-  border: .7rem double  #3fc3fc;
+  border: 1rem double  #940b8d;
+}
+.circle-4 {
+  background: url(/img/moon.jpg) center no-repeat;
+  background-size: cover;
+  background-clip:content-box;
+  border: 1rem double  #6a6d6e;
 }
 
 .main-circle {
