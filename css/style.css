@@ -127,6 +127,10 @@ html {
   align-self: center;
   justify-self: center;
   opacity: 0.5;
+  position: relative;
+  transition: left 2s, top 2s;
+  top:0;
+  left: 0;
 }
 .circle-1 {
   background: url(/img/earth.jpeg) center no-repeat;
@@ -163,8 +167,17 @@ html {
   border-radius: 50%;
   position: absolute;
   overflow: hidden;
+  
 }
 
+
+.main-circle img {
+  position: relative;
+  transform: scale(1.2);
+  transition: left 2s, top 2s;
+  top:0;
+  left: 0;
+}
 /* End of Animated Circles */
 /* Featured text */
   .featured-text {
