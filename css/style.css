@@ -26,6 +26,7 @@ html {
   z-index: 300;
   transform: translate(-50%, -50%);
   opacity: 0;
+  pointer-events: none;
 }
 
 
@@ -68,6 +69,7 @@ html {
   height: .5rem;
   background-color: rgb(95, 207, 207);
   position: fixed;
+  
 }
 
 /* End of Mouse Circle
@@ -92,6 +94,46 @@ html {
   justify-content: center;
   align-items: center;
 }
+
+
+/* Main Button */
+
+  .main-btn {
+    position: absolute;
+    bottom: 3rem;
+    width: 16rem;
+    height: 5rem;
+    background: rgb(125,35,235);
+background: radial-gradient(circle, rgba(125,35,235,1) 0%, rgba(148,187,233,1) 100%);
+    
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition:  .5s;
+  }
+
+  .main-btn span {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    text-shadow: .5rem .3rem .5rem black
+  }
+
+  .main-btn:hover {
+    height: 5rem;
+    background: rgb(158, 112, 214);
+background: radial-gradient(circle, rgb(146, 87, 218) 0%, rgb(181, 203, 228)100%);
+    
+  }
+
+
+/* Button Ending */
 /* End of Section 1 */
 
 /* Logo */
@@ -137,12 +179,14 @@ html {
   background-size: 150%;
   background-clip:content-box;
   border: 1rem double  #3fc3fc;
+  margin-left: -10rem;
 }
 .circle-2 {
   background: url(/img/hero2.jpg) center no-repeat;
   background-size: 240%;
   background-clip:content-box;
   border: 1rem double  #fc753f;
+  margin-right: -10rem;
 
 }
 .circle-3 {
@@ -150,12 +194,14 @@ html {
   background-size: cover;
   background-clip:content-box;
   border: 1rem double  #940b8d;
+  margin-left: -10rem;
 }
 .circle-4 {
   background: url(/img/moon.jpg) center no-repeat;
   background-size: cover;
   background-clip:content-box;
   border: 1rem double  #6a6d6e;
+  margin-right: -10rem;
 }
 
 .main-circle {
@@ -167,7 +213,12 @@ html {
   border-radius: 50%;
   position: absolute;
   overflow: hidden;
-  
+  transition: width -.2s, height -.2s;
+}
+
+
+.main-circle:hover {
+  cursor: pointer;
 }
 
 
@@ -184,8 +235,10 @@ html {
     font-size: 2rem;
     color: aliceblue;
     text-transform: uppercase;
-    z-index: 2;
-    position:sticky;
+    width: 0;
+    word-wrap: break-word;
+    line-height: 3.5;
+    position: sticky;
     top: 0;
   }
 
@@ -201,3 +254,69 @@ html {
 /* End of Featured Text */
 
 /* End of Section 1 */
+
+/* Main Button */
+
+/* Section 2 */
+
+.section-2 {
+  position: relative;
+  padding: 10rem 10rem 15rem 10rem;
+}
+
+/*Section2 Heading */
+
+  .section-2-heading {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #ffff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 10rem;
+    transform: translateY(-50%);
+    width: 0;
+    word-break: break-all;
+    line-height: 4;
+  }
+
+/*ENding Section2 Heading */
+
+
+
+/* about me text */
+  .about-me-text {
+    width: 80%;
+    margin: auto;
+  }
+
+  .about-me-text span {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15rem;
+    color: #aaa;
+    letter-spacing: 0.5rem;
+    line-height: 0.9;
+    text-shadow: 0 0 2rem #5a0964;
+    padding-top: 0.5rem;
+    mix-blend-mode: color-dodge;
+  }
+
+  @keyframes aboutMeTextAnim {
+    0% {
+      color: #aaa;
+      top: 0;
+    }10%,
+    50%{
+      color: #ffff;
+      top: 2rem;
+    }100% {
+      color: #aaa;
+      top: 0;
+    }
+  }
+
+
+
+/*about me text ending */
+
+/*Section 2 Ending */

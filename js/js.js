@@ -66,3 +66,27 @@ const animateCircles = (e,x,y) => {
 }
 
 //End of Animated Circles
+
+// Main Button 
+
+
+
+// End of Main Button
+
+
+// About me Text
+
+const aboutMeText = document.querySelector('.about-me-text')
+const aboutMeTextContent = 
+'I am a designer && I create high quality websites using HTML CSS JAVASCRIPT and REACT && contact me!';
+
+Array.from(aboutMeTextContent).forEach(char => {
+    const span = document.createElement('span');
+    span.textContent = char;
+    aboutMeText.appendChild(span);
+
+    span.addEventListener('mouseenter',(e)=> {
+        e.target.style.animation = "aboutMeTextAnim 10s infinite";
+    })
+});
+// End ofAbout me Text
