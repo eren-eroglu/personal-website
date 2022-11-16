@@ -23,12 +23,12 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="dark">
     <!--Next:Bootstrap 5 : Ders 2 : "Hero" Alanı, D-Flex, Kendi "Class" ımız, Balık Tutmak-->
     <header id="header">
       <nav id="navbar_top" class="navbar navbar-expand-md navbar-white bg-custom py-2">
         <div class="container">
-          <a class="navbar-brand brand" href="#">Eren Eroğlu</a>
+          <a class="navbar-brand brand text-danger" href="#">Eren Eroğlu</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -37,15 +37,13 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li> 
+        
             
               <li class="nav-item">
                 <a class="nav-link" href="#">Blog</a>
               </li> 
               <li class="nav-item">
-                <a class="nav-link"  href="#">Contact</a>
+                <a class="nav-link"  href="contact.html">Contact</a>
               </li> 
             </ul>
           </div>
@@ -58,7 +56,7 @@
         <div id="hero-text">
           <h1 class="display-3 brand-iki">Front End Developer.</h1>
           <p class="h5  brand-uc ">I create responsive & modern websites</p>
-          <button class="btn btn-danger mt-3 brand-dort"">Contact</button>
+          <a href="contact.html"> <button class="btn btn-danger mt-3 brand-dort">CONTACT ME</button></a>
         </div>
 
       </div>
@@ -86,11 +84,11 @@
 
     </section>
     
-    <footer class="h-auto w-100 mb bg-danger text-white d-flex flex-lg-row py-2">
+    <footer class="page-footer h-auto w-100 mb bg-danger text-white d-flex flex-lg-row py-2">
       <div class="first-div w-50 d-flex flex-column h-100">
       <div class="display-5 row m-0">Eren Eroğlu </div>
       <div class="icons p-2">
-       <a href="https://github.com/eren-eroglu"> <img src="./img/github.svg" style="height: 50px;"></a>
+       <a href="https://github.com/eren-eroglu"> <img  src="./img/github.svg" style="height: 50px;"></a>
       <a href="https://twitter.com/35ereneroglu"> <img src="./img/twitter.svg" style="height: 50px;"></a>
       <a href="#"><img src="./img/linkedin.svg" style="height: 50px;"></a> 
       </div>
@@ -106,6 +104,7 @@
       </div>
     </footer>
    
+    
   </body>
 </html>
 

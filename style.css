@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+
 .bg-custom {
   /* Created with https://www.css-gradient.com */
 background: white;
@@ -19,6 +20,10 @@ background:white;
   
 }
 
+.contact {
+       height: 80vh;
+}
+
 #hero-text {
 
   font-family: 'Poppins', sans-serif;
@@ -34,9 +39,6 @@ text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 
 .h5 {
   color: black;
   
-}
-.btn-danger {
-  letter-spacing: 3px;
 }
 
 #hero2 {
@@ -362,3 +364,8 @@ p {
             animation-timing-function: ease-out;
   }
 }
+
+.ic:hover {
+        filter: invert(50%);
+}
+
