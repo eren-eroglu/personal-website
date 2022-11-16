@@ -40,6 +40,10 @@ text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 
   color: black;
   
 }
+.text-black {
+        font-style: italic;
+        font-weight: bold;
+}
 
 #hero2 {
   color: rgb(0, 0, 0);
