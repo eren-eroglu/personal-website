@@ -373,3 +373,22 @@ p {
         filter: invert(50%);
 }
 
+
+
+.blog:link { text-decoration: none; }
+
+
+.blog:visited { text-decoration: none; }
+
+
+.blog:hover { text-decoration: none; }
+
+
+.blog:active { text-decoration: none; }
+
+.p {
+        max-width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+       }
