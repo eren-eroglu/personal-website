@@ -408,3 +408,7 @@ p {
         justify-content: center;
 }
 
+.hide {
+        z-index: -999;
+        display: none;
+}
