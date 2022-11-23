@@ -397,3 +397,14 @@ p {
 .text-align-center {
         text-align: center;
 }
+
+.preloader-container {
+        height: 100vh;
+  
+        z-index: 999;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+}
+
