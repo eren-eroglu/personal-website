@@ -14,7 +14,10 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
     <!-- JavaScript Bundle with Popper -->
     <script
       defer
@@ -22,30 +25,49 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
-  </head><div class="preloader-container">
-  <img class="preloader" src="./img/Laptop spinning.gif" alt="preloader"></div>
+  </head>
+
   <body class="dark">
+
+  <div class="preloader-container">
+    <img class="preloader" src="./img/Laptop spinning.gif" alt="preloader" />
+  </div>
+
     <!--Next:Bootstrap 5 : Ders 2 : "Hero" Alanı, D-Flex, Kendi "Class" ımız, Balık Tutmak-->
     <header id="header">
-      <nav id="navbar_top" class="navbar navbar-expand-md navbar-white bg-custom py-2">
+      <nav
+        id="navbar_top"
+        class="navbar navbar-expand-md navbar-white bg-custom py-2"
+      >
         <div class="container">
-          <a class="navbar-brand brand text-danger" href="index-en.html">Language  <img src="img/tr.png" style=" height:40px ">  </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand brand text-danger" href="index-en.html"
+            >Language <img src="img/tr.png" style="height: 40px" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Anasayfa</a
+                >
               </li>
-        
-            
+
               <li class="nav-item">
                 <a class="nav-link" href="blogs.html">Blog</a>
-              </li> 
+              </li>
               <li class="nav-item">
-                <a class="nav-link"  href="contact.html">İletişim</a>
-              </li> 
+                <a class="nav-link" href="contact.html">İletişim</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -53,61 +75,106 @@
     </header>
 
     <section id="hero">
-      <div class="container d-flex justify-content-center align-content-center align-items-center">
+      <div
+        class="container d-flex justify-content-center align-content-center align-items-center"
+      >
         <div id="hero-text">
           <h1 class="display-3 brand-iki">Front End Developer.</h1>
-          <p class="h5  brand-uc ">Modern Websiteler Üretiyorum</p>
-          <a href="contact.html"> <button class="btn btn-danger mt-3 brand-dort">İletişime Geç</button></a>
+          <p class="h5 brand-uc">Modern Websiteler Üretiyorum</p>
+          <a href="contact.html">
+            <button class="btn btn-danger mt-3 brand-dort">
+              İletişime Geç
+            </button></a
+          >
         </div>
-
       </div>
     </section>
-    <section id="hero2" class="d-flex justify-content-center align-content-center align-items-center">
-      <div class="me-2 ms-2 h4 d-flex justify-content-center">Frond End Developer <img src="./img/arrow.svg"> </div>
+    <section
+      id="hero2"
+      class="d-flex justify-content-center align-content-center align-items-center"
+    >
+      <div class="me-2 ms-2 h4 d-flex justify-content-center">
+        Frond End Developer <img src="./img/arrow.svg" />
+      </div>
       <a href="#" class="link-dark h4 ms-2">Daha Fazla Oku</a>
-        
-      
     </section>
     <!-- Section 3 Projects part -->
     <section id="hero3">
-      <div  class="d-flex flex-column align-items-center"> 
-      <span class="display-3">Projelerim</span>
-      <p>Çok fazla proje geliştirdim. Favorilerim ise :  </p></div>
-      <div id="boxes" class=" d-flex h-auto w-auto   flex-wrap justify-content-around " style=" background-color: rgb(255, 255, 255);">
-      <div class="resim h-auto w-25  d-flex flex-column rounded" style=" background-color: rgb(240, 176, 215)" >
-        <a href="https://eren-celil.github.io/relaxing-white-noises/"><img src="./img/pr-1.jpg" class="pr-1 pr1 shadow-lg  bg-dark rounded" ></a>
-      <p>Rahatlatıcı Sesler</p> </div>
-        
-      <div class="resim h-auto w-25  d-flex flex-column rounded" style=" background-color: rgb(176, 191, 240)"> <a href="https://github.com/eren-eroglu/modern-calculator"><img src="./img/pr-2.jpg" class="pr-1 shadow-lg   bg-dark rounded" ></a>  <p class="d-flex justify-content-center">Modern Hesap Makinesi</p> </div>
+      <div class="d-flex flex-column align-items-center">
+        <span class="display-3">Projelerim</span>
+        <p>Çok fazla proje geliştirdim. Favorilerim ise :</p>
+      </div>
+      <div
+        id="boxes"
+        class="d-flex h-auto w-auto flex-wrap justify-content-around"
+        style="background-color: rgb(255, 255, 255)"
+      >
+        <div
+          class="resim h-auto w-25 d-flex flex-column rounded"
+          style="background-color: rgb(240, 176, 215)"
+        >
+          <a href="https://eren-celil.github.io/relaxing-white-noises/"
+            ><img
+              src="./img/pr-1.jpg"
+              class="pr-1 pr1 shadow-lg bg-dark rounded"
+          /></a>
+          <p>Rahatlatıcı Sesler</p>
+        </div>
 
-      <div class="resim h-auto w-25 d-flex flex-column rounded" style="background-color: rgba(240,176,215,1)"><a href="https://github.com/eren-eroglu/personal-website"><img src="./img/pr-3.jpg" class="pr-1 shadow-lgbg-dark rounded"></a>  <p class="d-flex justify-content-center">Portfolyo Websitesi</p></div>
-    </div>
+        <div
+          class="resim h-auto w-25 d-flex flex-column rounded"
+          style="background-color: rgb(176, 191, 240)"
+        >
+          <a href="https://github.com/eren-eroglu/modern-calculator"
+            ><img src="./img/pr-2.jpg" class="pr-1 shadow-lg bg-dark rounded"
+          /></a>
+          <p class="d-flex justify-content-center">Modern Hesap Makinesi</p>
+        </div>
 
+        <div
+          class="resim h-auto w-25 d-flex flex-column rounded"
+          style="background-color: rgba(240, 176, 215, 1)"
+        >
+          <a href="https://github.com/eren-eroglu/personal-website"
+            ><img src="./img/pr-3.jpg" class="pr-1 shadow-lgbg-dark rounded"
+          /></a>
+          <p class="d-flex justify-content-center">Portfolyo Websitesi</p>
+        </div>
+      </div>
     </section>
-    
-    <footer class="page-footer h-auto w-100 mb bg-danger text-white d-flex flex-lg-row py-2">
-      <div class="first-div w-50 d-flex flex-column h-100">
-      <div class="display-5 row m-0">Eren Eroğlu </div>
-      <div class="icons p-2">
-       <a href="https://github.com/eren-eroglu"> <img  src="./img/github.svg" style="height: 50px;" class="ic"></a>
-      <a href="https://twitter.com/35ereneroglu"> <img src="./img/twitter.svg" style="height: 50px;" class="ic"></a>
-      <a href="#"><img src="./img/linkedin.svg" class="ic" style="height: 50px;"></a> 
-      </div>
-       <div class="h5  row m-0" style="font-size: 16px;">© 2022-present. Eren Eroglu. Tüm Hakları Saklıdır.</div>
-       
- </div>
 
-      <div class="second-div d-flex flex-column h-100 ">
-        <span class="h3 quick">Quick Links</span>
-       <a href="https://twitter.com/35ereneroglu" class="link-dark"><span>Twitter</span></a> 
-       <a href="https://github.com/eren-eroglu" class="link-dark"><span>Github</span></a> 
-        <a href="contact.html" class="link-dark"> <span>Contact</span></a>
-  
+    <footer
+      class="page-footer h-auto w-100 mb bg-danger text-white d-flex flex-lg-row py-2"
+    >
+      <div class="first-div w-50 d-flex flex-column h-100">
+        <div class="display-5 row m-0">Eren Eroğlu</div>
+        <div class="icons p-2">
+          <a href="https://github.com/eren-eroglu">
+            <img src="./img/github.svg" style="height: 50px" class="ic"
+          /></a>
+          <a href="https://twitter.com/35ereneroglu">
+            <img src="./img/twitter.svg" style="height: 50px" class="ic"
+          /></a>
+          <a href="#"
+            ><img src="./img/linkedin.svg" class="ic" style="height: 50px"
+          /></a>
+        </div>
+        <div class="h5 row m-0" style="font-size: 16px">
+          © 2022-present. Eren Eroglu. Tüm Hakları Saklıdır.
+        </div>
       </div>
-      
+
+      <div class="second-div d-flex flex-column h-100">
+        <span class="h3 quick">Quick Links</span>
+        <a href="https://twitter.com/35ereneroglu" class="link-dark"
+          ><span>Twitter</span></a
+        >
+        <a href="https://github.com/eren-eroglu" class="link-dark"
+          ><span>Github</span></a
+        >
+        <a href="contact.html" class="link-dark"> <span>Contact</span></a>
+      </div>
     </footer>
-   
-    
   </body>
 </html>
 
