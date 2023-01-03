@@ -25,21 +25,26 @@
 
 .bg-custom {
   /* Created with https://www.css-gradient.com */
-background: white;
+
 }
 
 #hero {
   color: white;
  /* Created with https://www.css-gradient.com */
-background:white;
+
   background-size: cover;
   background-position: center;
-  clip-path: polygon(0 0, 100% 0, 100% 88%, 0% 100%);
+ margin-bottom: 20px;
 }
 
 #hero .container {
   height: 50vh;
-  
+  background: rgba( 255, 255, 255, 0.1 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 2px );
+  -webkit-backdrop-filter: blur( 2px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .contact {
@@ -64,7 +69,7 @@ background:white;
       margin: 0;
       color: var(--color-primary);
       color: transparent;
-      background-color: white;
+      
       background-clip: text;
       animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
       letter-spacing: 0.4rem;
@@ -114,7 +119,7 @@ serif {
 
 #hero2 {
   color: rgb(0, 0, 0);
-  background-color: rgb(255, 211, 237);
+  
   background-size: cover;
   background-position: center;
   height: 10vh;
@@ -126,7 +131,7 @@ text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
 #hero3 {
    
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+    
     background-size: cover;
     background-position: center;
    
