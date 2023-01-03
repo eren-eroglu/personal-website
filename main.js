@@ -21,15 +21,3 @@ images.forEach((image) => {
   }
 });
 
-const preloader_container = document.querySelector(".preloader-container");
-
-const preloader = document.querySelector(".preloader");
-
-window.onload = hide();
-
-function hide() {
-  setTimeout(() => {
-    preloader_container.classList.add("hide");
-    preloader.classList.add("hide");
-  }, 1500);
-}
