@@ -148,7 +148,6 @@ p {
   box-shadow: 5px 5px 10px 2px;
 }
 
-
 .pr1 {
   background-position: bottom;
   object-position: top;
@@ -163,7 +162,6 @@ p {
   animation: vibrate-1;
   animation-duration: 1s;
 }
-
 
 .brand-dort {
   animation: bounce-in-top;
