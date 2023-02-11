@@ -129,14 +129,14 @@ serif {
   background-position: center;
   transition: 0.5s ease-in-out;
   transform-origin: 65% 75%;
-  transition: transform 1s, filter 0.5s ease-out;
+  transition: transform .5s, filter 0.5s ease-out;
   border-radius: 10% !important;
 }
 
 .pr-1:hover {
   background-size: cover;
   cursor: pointer;
-  transform: scale(1.5);
+  transform: scale(1.1);
   display: flex;
   overflow: hidden;
 }
