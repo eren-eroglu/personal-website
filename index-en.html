@@ -20,6 +20,7 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
+    <script defer src="main.js"></script>
   </head>
   <body class="dark">
     <!--Next:Bootstrap 5 : Ders 2 : "Hero" Alanı, D-Flex, Kendi "Class" ımız, Balık Tutmak-->
@@ -118,9 +119,9 @@
     </div>
     <!-- Section 3 Articles part -->
     <section id="hero3" class="mb-3 w-100">
-      <div class="d-flex flex-column align-items-center w-100">
+      <div class="d-flex justify-content-center flex-column align-items-center w-100">
         <span class="display-5 m-5">Articles</span>
-        <span>
+        <span class="w-75">
           I write articles about web development and programming languages, here
           are the latest ones:
         </span>
@@ -172,50 +173,49 @@
       </div>
     </section>
     <br />
-    <!-- Section 4 Projects part -->
-    <section id="hero4" class="mt-3">
-      <div class="d-flex flex-column align-items-center">
-        <span class="display-5 m-5">Projects</span>
-        <p>I made lots of projects. But here are my favorites :</p>
-      </div>
+   <!-- Section 4 Projects part -->
+   <section id="hero4" class="mt-3">
+    <div class="d-flex flex-column align-items-center">
+      <span class="display-5 m-5">Projelerim</span>
+      <p>Birçok proje yaptım, favorilerim ise : </p>
+    </div>
+    <div
+      id="boxes_iki"
+      class="d-flex h-auto w-auto flex-wrap justify-content-around align-content-center "
+    >
       <div
-        id="boxes_iki"
-        class="d-flex h-auto w-auto flex-wrap justify-content-around align-content-center"
+        class="resim_iki h-auto w-auto m-3 d-flex flex-column rounded overflow-hidden"
+        style="background-color: rgb(255, 255, 255)"
       >
-        <div
-          class="resim_iki h-auto w-auto m-3 d-flex flex-column rounded"
-          style="background-color: rgb(255, 255, 255)"
-        >
-          <a href="https://eren-celil.github.io/relaxing-white-noises/"
-            ><img
-              src="./img/pr-1.jpg"
-              class="pr-1 pr1 shadow-lg bg-dark rounded"
-          /></a>
-          <p>Relaxing Sounds!</p>
-        </div>
-
-        <div
-          class="resim_iki h-auto w-auto m-3 d-flex flex-column rounded"
-          style="background-color: rgb(255, 255, 255)"
-        >
-          <a href="https://github.com/eren-eroglu/matrix-mates"
-            ><img src="./img/pr-2.jpg" class="pr-1 shadow-lg bg-dark rounded"
-          /></a>
-          <p class="d-flex justify-content-center">Social Media Platform</p>
-        </div>
-
-        <div
-          class="resim_iki h-auto w-auto m-3 d-flex flex-column rounded"
-          style="background-color: rgb(255, 255, 255)"
-        >
-          <a href="https://github.com/eren-eroglu/bitcoin-price"
-            ><img src="./img/pr-3.jpg" class="pr-1 shadow-lgbg-dark rounded"
-          /></a>
-          <p class="d-flex justify-content-center">Crypto Latest News!</p>
-        </div>
+        <a href="https://eren-celil.github.io/relaxing-white-noises/"
+          ><img
+            src="./img/pr-1.jpg"
+            class="pr-1 pr1 shadow-lg bg-dark rounded"
+        /></a>
+        <p class="mt-1">Relaxing White Noises</p>
       </div>
-    </section>
 
+      <div
+        class="resim_iki h-auto w-auto m-3 d-flex flex-column rounded overflow-hidden "
+        
+      >
+        <a href="https://github.com/eren-eroglu/matrix-mates"
+          ><img src="./img/pr-2.jpg" class="pr-1 shadow-lg bg-dark rounded"
+        /></a>
+        <p class="d-flex justify-content-center mt-1">Social Media Platform</p>
+      </div>
+
+      <div
+        class="resim_iki h-auto w-auto m-3 d-flex flex-column rounded overflow-hidden"
+        style="background-color: rgb(255, 255, 255)"
+      >
+        <a href="https://github.com/eren-eroglu/bitcoin-price"
+          ><img src="./img/pr-3.jpg" class="pr-1 shadow-lgbg-dark rounded"
+        /></a>
+        <p class="d-flex justify-content-center mt-1">CryptoNews</p>
+      </div>
+    </div>
+  </section>
     <footer
       class="page-footer h-auto w-100 mb text-white d-flex flex-lg-row mt-3 py-2"
     >

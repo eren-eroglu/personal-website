@@ -43,6 +43,10 @@ function darkMode() {
   
   hero2.classList.toggle('text-white')
   hero2.classList.toggle('bg-dark')
+  hero2.classList.toggle('border-bottom')
+  hero2.classList.toggle('border-top')
+  hero2.classList.toggle('border-primary')
+
   h5s.forEach((h5) => {
     h5.classList.toggle("text-white");
   });
